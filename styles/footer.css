@@ -1,0 +1,75 @@
+/* Navbar */
+footer {
+    background-color: #1C1C1C;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-width: 1490px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.footer-navbar,
+.nav-list-editoriais,
+.list-editoriais-items {
+    display: flex;
+}
+
+.footer-navbar {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.nav-list-editoriais {
+    flex-direction: column;
+}
+
+.list-editoriais-items {
+    gap: 40px;
+}
+
+.list-editoriais-items>li,
+.nav-list-links>li,
+.nav-list-redes>li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list-editoriais-items>li,
+.nav-list-links>li:last-child,
+.nav-list-redes>li:last-child {
+    margin-top: 14px;
+}
+
+.footer-navbar>ul {
+    list-style: none;
+}
+
+/* Copyright */
+.copyright {
+    max-width: 1490px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.copyright>div>a {
+    margin-left: 20px;
+}
+
+.copyright>div>a>img {
+    margin-left: 10px;
+}

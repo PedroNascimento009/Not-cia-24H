@@ -1,0 +1,143 @@
+/* Main Article Primary */
+.main-article-primary {
+    position: absolute;
+    top: 68vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+    grid-area: main-article-primary;
+}
+
+.byline,
+.byline>figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.byline>span:first-child {
+    height: 500px;
+}
+
+.byline-img>img {
+    border-radius: 50%;
+}
+
+/* Main Article Secundary */
+.main-article-secundary {
+    margin-top: 92vh;
+    max-width: 786px;
+    grid-area: main-article-secundary;
+
+    display: grid;
+    gap: 34px;
+}
+
+/* Read More */
+.read-more-box {
+    border: 1px solid #E51D35;
+
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+
+.read-more-articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more-articles>article {
+    max-width: 226px;
+}
+
+.read-more-category {
+    display: inline-block;
+    background-color: #E51D35;
+
+    padding: 3px 9px;
+
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    text-align: center;
+}
+
+.gallery-button{
+    background-color: transparent;
+
+    padding: 15px;
+    
+    box-shadow: 1.5px -1.5px 0 1px #E51D35 inset;
+    border: solid transparent;
+    border-width: 0 0 1.5px 1.5px;
+    
+    transform: rotate(45deg);
+}
+
+.button-next {
+    transform: rotate(225deg);
+}
+
+/* Action-Block */
+.action-block, .action-block>li {
+    display: flex;
+}
+
+.action-block {
+    max-width: 390px;
+    padding: 12px 8px;
+
+    align-items: center;
+    gap: 40px;
+
+    border: 1px solid #E51D35;
+    border-radius: 6px;
+
+    list-style: none;
+}
+
+.action-block>li {
+    flex-direction: column;
+}
+
+.action-block>li:first-child{
+    width: 80px;
+    align-items: center;
+
+    border-right: 1px solid #F3F3F3;
+}
+
+.action-block-button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+}
+
+.save-button {
+    padding: 11px;
+    border: 1px solid #E51D35;
+}
+
+/* Service Box */
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 28px;
+
+    border: 1px solid #E51D35;
+    border-radius: 6px;
+}
+
+.service-box>ul>li::marker {
+    color: #E51D35;
+}

@@ -1,0 +1,5 @@
+.content-side {
+    max-width: 384px;
+    grid-area: aside;
+    margin-top: 92vh;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PlusJakarta', sans-serif;
+    src: url(/components/fonts/PlusJakartaSans-Regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'PlusJakarta', sans-serif;
+    src: url(/components/fonts/PlusJakartaSans-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'PlusJakarta', sans-serif;
+}
+
+/* Header */
+.date_exchange-rate {
+    color: #FFFFFF;
+
+    font-size: 14px;
+}
+
+.header-nav-search>input::placeholder {
+    color: #FFFFFF;
+
+    font-size: 16px;
+}
+
+.header-category>a {
+    color: #FFFFFF;
+
+    font-size: 22px;
+    font-weight: 500;
+    
+    text-decoration: none;
+}
+
+.header-category>a:last-child {
+    font-weight: bold;
+}
+
+/* Footer */
+.nav-list-editoriais>span,
+.nav-list-links>li>span,
+.nav-list-redes>li>span {
+    color: #FFFFFF;
+
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.list-editoriais-items>li>a,
+.nav-list-links>li>a,
+.nav-list-redes>li>a,
+.copyright>span {
+    color: #FFFFFF;
+
+    font-size: 18px;
+
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.copyright>div>a {
+    color: #FFFFFF;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    text-decoration: none;
+}
