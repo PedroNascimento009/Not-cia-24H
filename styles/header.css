@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    position: relative;
+}
+
 header {
     z-index: 1;
     position: relative;
@@ -77,6 +81,11 @@ header {
 /* Navbar */
 #header-nav-burger-button {
     display: none;
+
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
 }
 
 .header-navbar,

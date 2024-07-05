@@ -30,9 +30,6 @@
             </ul>
             <hr class="header-border">
             <nav class="header-navbar">
-                <button id="header-nav-burger-button">
-                    <img src="components/imgs/menu.svg" alt="burger-button">
-                </button>
                 <form class="header-nav-search">
                     <button type="submit"><img src="components/imgs/lupa.svg" alt="lupa" width="24"
                             height="24"></button>
@@ -48,6 +45,9 @@
                     <a href="#"><img src="components/imgs/facebook.svg" alt="facebook" width="34" height="34"></a>
                     <a href="#"><img src="components/imgs/instagram.svg" alt="instagram" width="34" height="34"></a>
                 </div>
+                <button id="header-nav-burger-button">
+                    <img src="components/imgs/menu.svg" alt="burger-button">
+                </button>
             </nav>
             <div class="header-category">
                 <a href="#">Home</a>
@@ -55,23 +55,24 @@
                 <a href="#"><img src="components/imgs/cinema.svg" alt="#">cinema</a>
             </div>
         </section>
-        <figure class="main-photo">
-            <img src="components/imgs/foto-principal-desktop-2x.webp" alt="foto-principal" width="1490" height="750">
-            <figcaption>Foto: Divulgação</figcaption>
-        </figure>
     </header>
 
     <main>
+
+
         <aside class="side-icons">
-            <menu>
-                <li class="side-social-audio"><button><img src="components/imgs/ouça.svg" alt="ouça">
+            <menu class="side-social-audio">
+                <li><button><img src="components/imgs/ouça.svg" alt="ouça">
                         Ouça</button>
-                    <a href="#"><img src="components/imgs/share_facebook.svg" alt="facebook-side"></a>
+                </li>
+                <li><a href="#"><img src="components/imgs/share_facebook.svg" alt="facebook-side"></a>
                     <a href="#"><img src="components/imgs/share_instagram.svg" alt="instagram-side"></a>
                     <a href="#"><img src="components/imgs/share_x.svg" alt="x-side"></a>
                     <a href="#"><img src="components/imgs/share_whatsapp.svg" alt="whatsapp-side"></a>
                 </li>
-                <li class="side-mode-scroll">
+            </menu>
+            <menu class="side-mode-scroll">
+                <li>
                     <button class="clean-mode"><img src="components/imgs/modo_clean.svg" alt="clean"></button>
                     <button class="top-mode"><img src="components/imgs/topo.svg" alt="topo"></button>
                 </li>
@@ -79,18 +80,29 @@
         </aside>
 
         <article class="main-article-primary">
-            <a href="#">A24</a>
-            <div class="article-text">
-                <h1>MaXXXine | Novo filme de Mia Goth é baseado em uma história real?</h1>
-                <h2>Sequência direta do primeiro, longa será lançado após Pearl, que é um prelúdio</h2>
-                <div class="byline">
-                    <figure class="byline-img">
-                        <img src="components/imgs/autor-desktop.webp" alt="autor">
-                        <figcaption>Matheus Fiore</figcaption>
-                    </figure>
-                    <span>|</span>
-                    <span>Publicado em 24 de Janeiro, 2024</span>
+            <div class="layout-article-primary">
+                <figure class="main-photo">
+                    <img class="main-photo-desktop" src="components/imgs/foto-principal-desktop-2x.webp"
+                        alt="foto-principal" width="1490" height="750">
+                    <img class="main-photo-mobile" src="components/imgs/foto-mobile@2x.webp" alt="foto-principal"
+                        width="1490" height="750" media="(min-width: 600px)">
+                    <figcaption>Foto: Divulgação</figcaption>
+                </figure>
+                <div class="article-text">
+                    <a href="#">A24</a>
+                    <h1>MaXXXine | Novo filme de Mia Goth é baseado em uma história real?</h1>
+                    <h2>Sequência direta do primeiro, longa será lançado após Pearl, que é um prelúdio</h2>
+                    <div class="byline">
+                        <figure class="byline-img">
+                            <img src="components/imgs/autor-desktop.webp" alt="autor">
+                            <figcaption>Matheus Fiore</figcaption>
+                        </figure>
+                        <span>|</span>
+                        <span>Publicado em 24 de Janeiro, 2024</span>
+                    </div>
                 </div>
+                <div class="gradient-background1"></div>
+                <div class="gradient-background2"></div>
             </div>
         </article>
 
@@ -116,31 +128,32 @@
                 que
                 tem nas jovens aspirantes a celebridades seu principal alvo.</p>
 
-            <div class="read-more-box">
+            <section class="read-more-box">
                 <span>Leia +</span>
                 <div class="read-more-articles">
-                <article>
-                    <a class="read-more-category" href="#">AUTÊNTICA</a>
-                    <a class="read-more-text" href="#">
-                        <h3>Coringa 2: Lady Gaga comenta novamente sobre sua versão da Arlequina</h3>
-                    </a>
-                </article>
-                <article>
-                    <a class="read-more-category" href="#">ESTREIA</a>
-                    <a class="read-more-text" href="#">
-                        <h3>'Coringa 2' vai estrear no Festival de Veneza de 2024; veja mais filmes</h3>
-                    </a>
-                </article>
-                <article>
-                    <a class="read-more-category" href="#">DESCUBRA</a>
-                    <a class="read-more-text" href="#">
-                        <h3>‘Coringa 2’: três enigmas cruciais que o trailer do filme esconde</h3>
-                    </a>
-                </article>
-            </div>
-            </div>
+                    <article>
+                        <a class="read-more-category" href="#">AUTÊNTICA</a>
+                        <a class="read-more-text" href="#">
+                            <h3>Coringa 2: Lady Gaga comenta novamente sobre sua versão da Arlequina</h3>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="read-more-category" href="#">ESTREIA</a>
+                        <a class="read-more-text" href="#">
+                            <h3>'Coringa 2' vai estrear no Festival de Veneza de 2024; veja mais filmes</h3>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="read-more-category" href="#">DESCUBRA</a>
+                        <a class="read-more-text" href="#">
+                            <h3>‘Coringa 2’: três enigmas cruciais que o trailer do filme esconde</h3>
+                        </a>
+                    </article>
+                </div>
+            </section>
 
-            <p>O Perseguidor da Noite, que também foi chamado pela imprensa como Walk-in Killer (Visitante
+            <p class="special-paragraph">O Perseguidor da Noite, que também foi chamado pela imprensa como Walk-in
+                Killer (Visitante
                 Assassino) ou
                 Valley Intruder (Intruso do Vale), foi Richard Ramírez. Nascido no Texas em 1960 e filho caçula
                 de
@@ -149,17 +162,22 @@
                 abandonando
                 a escola e frequentando cemitérios.</p>
 
-            <span>Confira as imagens</span>
-            <div class="image-gallery">
-                <button class="gallery-button button-previous"></button>
-                <figure>
-                    <img src="components/imgs/mia_goth_halsey-desktop.webp" alt="mia_goth_halsey">
-                    <figcaption>Mia Goth e a Cantora Halsey em cenas do trailer | Foto: Divulgação</figcaption>
-                </figure>
-                <button class="gallery-button button-next"></button>
+            <div class="image-gallery-box">
+                <div class="image-gallery-text">
+                    <span>Confira as imagens</span>
+                    <span class="number-photos">01 de 10</span>
+                </div>
+                <div class="image-gallery">
+                    <button class="gallery-button button-previous"></button>
+                    <figure>
+                        <img src="components/imgs/mia_goth_halsey-desktop.webp" alt="mia_goth_halsey">
+                        <figcaption>Mia Goth e a Cantora Halsey em cenas do trailer | Foto: Divulgação</figcaption>
+                    </figure>
+                    <button class="gallery-button button-next"></button>
+                </div>
             </div>
 
-            <span>MaXXXine</span>
+            <span class="MaXXine">MaXXXine</span>
 
             <h2>O filme é inspirado em uma história real?</h2>
 
@@ -177,7 +195,8 @@
                 documental sobre ele.</p>
 
             <ul class="action-block">
-                <li><button class="action-block-button save-button"><img src="components/imgs/salvar.svg" alt="salvar" width="22" height="17"></button>
+                <li><button class="action-block-button save-button"><img src="components/imgs/salvar.svg" alt="salvar"
+                            width="22" height="17"></button>
                     <span>Salve</span>
                 </li>
                 <li><span>Ficha técnica de Maxxxine</span>
@@ -195,9 +214,10 @@
                 a escola e frequentando cemitérios.</p>
 
             <ul class="action-block">
-                <li><button class="action-block-button"><img src="components/imgs/ouça.svg" alt="salvar" width="46" height="46"></button>
-                <span>Salve</span>
-            </li>
+                <li><button class="action-block-button"><img src="components/imgs/ouça.svg" alt="salvar" width="46"
+                            height="46"></button>
+                    <span>Salve</span>
+                </li>
                 <li><span>Entrevista com Mia Goth</span>
                     <span>22:31</span>
                 </li>
@@ -229,67 +249,79 @@
             <hr>
         </article>
 
-        <div class="block-news">
-            <div class="tag-area">
+        <section class="box-news">
+            <section class="tag-area">
                 <span>Tags</span>
                 <a href="#">#noticia</a><a href="#">#artigo</a><a href="#">#trend</a>
-            </div>
+            </section>
             <hr>
 
-            <div class="block-articles">
-                <span>+Em <a href="#"><img src="components/imgs/cinema.svg" alt="cinema">Cinema</a></span>
-                <article>
-                    <menu><button><img src="components/imgs/like.svg" alt="like"></button>
-                        <button><img src="components/imgs/riso.svg" alt="riso"></button>
-                        <button><img src="components/imgs/raiva.svg" alt="raiva"></button>
-                    </menu>
-                    <figure>
-                        <img src="components/imgs/foto-leia-mais.webp" alt="TLOUS" width="246" height="302">
-                    </figure>
-                    <section>
-                        <a href="#">THE LAST OF US</a>
-                        <a href="#">
-                            <h3>Pedro Pascal e Bella Ramsey retornam nas novas imagens da 2ª temporada</h3>
-                        </a>
-                    </section>
-                </article>
-                <article>
-                    <menu><button><img src="components/imgs/like.svg" alt="like"></button>
-                        <button><img src="components/imgs/riso.svg" alt="riso"></button>
-                        <button><img src="components/imgs/raiva.svg" alt="raiva"></button>
-                    </menu>
-                    <figure>
-                        <img src="components/imgs/foto-1-leia-mais.webp" alt="A24-filme" width="246" height="302">
-                    </figure>
-                    <section>
-                        <a href="#">THE LAST OF US</a>
-                        <a href="#">
-                            <h3>“MAXXXINE”: A24 libera pôster deslumbrante do filme com Mia Goth</h3>
-                        </a>
-                    </section>
-                </article>
-                <article>
-                    <menu><button><img src="components/imgs/like.svg" alt="like"></button>
-                        <button><img src="components/imgs/riso.svg" alt="riso"></button>
-                        <button><img src="components/imgs/raiva.svg" alt="raiva"></button>
-                    </menu>
-                    <figure>
-                        <img src="components/imgs/foto-2-leia-mais.webp" alt="star-wars" width="246" height="302">
-                    </figure>
-                    <section>
-                        <a href="#">THE LAST OF US</a>
-                        <a href="#">
-                            <h3>Disney anuncia data de estreia do novo filme de Star Wars</h3>
-                        </a>
-                    </section>
-                </article>
-            </div>
-        </div>
+            <section class="box-more-in">
+                <ul>
+                    <li class="more-in-title"><span>+Em <a href="#"><img src="components/imgs/cinema.svg"
+                                    alt="cinema">Cinema</a></span>
+                    </li>
+                    <li class="more-in-articles">
+                        <article>
+                            <menu class="more-in-articles-menu"><button><img src="components/imgs/like.svg" alt="like"
+                                        width="18" height="18"></button>
+                                <button><img src="components/imgs/riso.svg" alt="riso" width="18" height="18"></button>
+                                <button><img src="components/imgs/raiva.svg" alt="raiva" width="18"
+                                        height="18"></button>
+                            </menu>
+                            <figure>
+                                <img src="components/imgs/foto-em-mais.webp" alt="TLOUS" width="246" height="302">
+                            </figure>
+                            <section class="more-in-articles-text">
+                                <a href="#">THE LAST OF US</a>
+                                <a href="#">
+                                    <h3>Pedro Pascal e Bella Ramsey retornam nas novas imagens da 2ª temporada</h3>
+                                </a>
+                            </section>
+                        </article>
+                        <article>
+                            <menu class="more-in-articles-menu"><button><img src="components/imgs/like.svg" alt="like"
+                                        width="18" height="18"></button>
+                                <button><img src="components/imgs/riso.svg" alt="riso" width="18" height="18"></button>
+                                <button><img src="components/imgs/raiva.svg" alt="raiva" width="18"
+                                        height="18"></button>
+                            </menu>
+                            <figure>
+                                <img src="components/imgs/foto-1-em-mais.webp" alt="A24-filme" width="246" height="302">
+                            </figure>
+                            <section class="more-in-articles-text">
+                                <a href="#">THE LAST OF US</a>
+                                <a href="#">
+                                    <h3>“MAXXXINE”: A24 libera pôster deslumbrante do filme com Mia Goth</h3>
+                                </a>
+                            </section>
+                        </article>
+                        <article>
+                            <menu class="more-in-articles-menu"><button><img src="components/imgs/like.svg" alt="like"
+                                        width="18" height="18"></button>
+                                <button><img src="components/imgs/riso.svg" alt="riso" width="18" height="18"></button>
+                                <button><img src="components/imgs/raiva.svg" alt="raiva" width="18"
+                                        height="18"></button>
+                            </menu>
+                            <figure>
+                                <img src="components/imgs/foto-2-em-mais.webp" alt="star-wars" width="246" height="302">
+                            </figure>
+                            <section class="more-in-articles-text">
+                                <a href="#">THE LAST OF US</a>
+                                <a href="#">
+                                    <h3>Disney anuncia data de estreia do novo filme de Star Wars</h3>
+                                </a>
+                            </section>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </section>
 
         <aside class="content-side">
-            <ul class="side-tag-set">
+            <ul class="trend-box">
                 <li><span>Explore</span></li>
-                <li>
+                <li class="trends">
                     <a href="#">#rockinrio</a>
                     <a href="#">#enchentesnoRS</a>
                     <a href="#">#netflix</a>
@@ -314,6 +346,11 @@
                 <input type="email" placeholder="Email: eufulano@gmail.com">
                 <button type="submit">Enviar</button>
             </form>
+
+            <div class="ads">
+                <span>Publicidade</span>
+                <img src="components/imgs/ads-desktop@2x.webp" alt="ads" width="300" height="250">
+            </div>
         </aside>
     </main>
 

@@ -1,5 +1,76 @@
 .content-side {
     max-width: 384px;
     grid-area: aside;
-    margin-top: 92vh;
+
+    margin-top: 75vh;
+}
+
+/* Trend Box */
+.trend-box {
+    padding: 13px 20px;
+    margin-bottom: 24px;
+
+    background-color: #FDFDFD;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+
+    list-style: none;
+}
+
+.trends {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-top: 18px;
+}
+
+.trends>a {
+    display: inline-block;
+
+    border: 1px solid #E51D35;
+    border-radius: 4px;
+    padding: 8px 18px;
+}
+
+/* Form */
+.side-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    background-color: #E51D35;
+    border-radius: 4px;
+
+    padding: 20px;
+}
+
+.side-form>p {
+    max-width: 242px;
+}
+
+.side-form>input {
+    height: 40px;
+
+    border-radius: 4px;
+    background-color: #FDFDFD;
+    border: none;
+
+    padding: 0px 18px;
+}
+
+.side-form>button {
+    height: 40px;
+
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+
+    padding: 0px 18px;
+}
+
+/* ADS */
+
+.ads>span {
+    margin-bottom: 8px;
 }

@@ -32,11 +32,238 @@ body {
 
     font-size: 22px;
     font-weight: 500;
-    
+
     text-decoration: none;
 }
 
+.header-category>span {
+    color: #FFFFFF;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
 .header-category>a:last-child {
+    font-weight: bold;
+}
+
+.main-photo>figcaption {
+    color: #1C1C1C;
+
+    font-size: 12px;
+}
+
+/* Main Article */
+.main-article-primary {
+    color: #FFFFFF;
+}
+
+.article-text>a {
+    color: #FFFFFF;
+
+    font-size: 12px;
+
+    text-decoration: none;
+}
+
+.article-text>h1 {
+    font-size: 48px;
+}
+
+.article-text>h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.byline {
+    font-size: 14px;
+}
+
+.byline-img>figcaption {
+    font-weight: bold;
+}
+
+.main-article-secundary>p {
+    color: #1C1C1C;
+
+    font-size: 20px;
+}
+
+.read-more-box>span {
+    color: #1C1C1C;
+
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.read-more-category {
+    color: #FFFFFF;
+
+    font-size: 12px;
+
+    text-decoration: none;
+}
+
+.read-more-text {
+    color: #1C1C1C;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.special-paragraph {
+    color: #5C5C5C !important;
+}
+
+.image-gallery-text {
+    color: #1C1C1C;
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.number-photos {
+    color: #FFFFFF;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.image-gallery>figure>figcaption {
+    color: #5C5C5C;
+
+    font-size: 12px;
+}
+
+.MaXXine {
+    color: #1C1C1C;
+
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main-article-secundary>h2 {
+    color: #1C1C1C;
+
+    font-size: 28px;
+}
+
+.action-block>li>span:first-child,
+.action-block>li:first-child>span {
+    color: #1C1C1C;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.action-block>li:last-child>span:last-child {
+    color: #1C1C1C;
+
+    font-size: 14px;
+}
+
+.service-box>span {
+    color: #1C1C1C;
+
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.service-box>ul>li {
+    color: #1C1C1C;
+
+    font-size: 22px;
+}
+
+.tag-area>span {
+    color: #1C1C1C;
+
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.tag-area>a {
+    color: #1C1C1C;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.more-in-title {
+    color: #1C1C1C;
+
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.more-in-title>span>a {
+    color: #1C1C1C;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.more-in-articles-text>a {
+    color: #FFFFFF;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.more-in-articles-text>a:first-child {
+    font-size: 12px;
+}
+
+.more-in-articles-text>a:last-child {
+    font-size: 18px;
+}
+
+/* Aside */
+.trend-box>li>span {
+    color: #E51D35;
+
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.trends>a {
+    color: #1C1C1C;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.side-form,
+.side-form>button {
+    font-family: 'PlusJakarta', sans-serif;
+
+    color: #FFFFFF;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.side-form>span {
+    font-size: 48px;
+}
+
+.side-form>p {
+    font-size: 18px;
+}
+
+.ads>span {
+    color: #1C1C1C;
+
+    font-size: 12px;
     font-weight: bold;
 }
 

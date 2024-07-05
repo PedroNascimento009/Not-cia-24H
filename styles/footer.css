@@ -1,8 +1,11 @@
 /* Navbar */
 footer {
+    z-index: 1;
     background-color: #1C1C1C;
     position: relative;
     z-index: 1;
+
+    padding-top: 38px;
 }
 
 .footer-content {
@@ -10,9 +13,9 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    max-width: 1490px;
+    max-width: 1438px;
     margin: 0 auto;
-    padding-top: 38px;
+    padding: 0px 20px;
 }
 
 .footer-navbar,
@@ -55,7 +58,7 @@ footer {
 
 /* Copyright */
 .copyright {
-    max-width: 1490px;
+    max-width: 1438px;
 
     display: flex;
     justify-content: space-between;
@@ -63,7 +66,7 @@ footer {
     flex-wrap: wrap;
 
     margin: 0 auto;
-    padding: 40px 0px;
+    padding: 40px 20px;
 }
 
 .copyright>div>a {
