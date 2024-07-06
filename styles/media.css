@@ -1,4 +1,4 @@
-@media(max-width:894px) {
+@media(max-width:884px) {
 
     /* Main */
     main {
@@ -51,6 +51,19 @@
     /* Aside */
     .ads {
         display: none !important;
+    }
+
+    /* Fonts */
+    .article-text>h1 {
+        font-size: 32px !important;
+    }
+
+    .article-text>h2 {
+        font-size: 17px !important;
+    }
+
+    .byline {
+        font-size: 13px !important;
     }
 }
 
